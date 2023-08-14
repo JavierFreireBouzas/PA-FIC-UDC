@@ -1,0 +1,8 @@
+#duracion{
+    font-size: 25px;
+}
+.duracion_y_sala{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}

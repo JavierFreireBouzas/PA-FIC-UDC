@@ -1,0 +1,13 @@
+.movies-header h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: #005bff;
+}
+.descripcion {
+    color: black;
+    background: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    border: 3px aliceblue;
+}

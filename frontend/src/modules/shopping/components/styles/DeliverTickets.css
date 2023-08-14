@@ -1,0 +1,72 @@
+.deliver-tickets-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliver-tickets-container form {
+    width: 500px;
+    margin: 10px;
+    padding: 15px 20px;
+    background: #eeeeee;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+.deliver-tickets-container form .fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.deliver-tickets-container form .field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.deliver-tickets-container form .field .field-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.deliver-tickets-container form .field input {
+    width: 250px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+}
+
+.deliver-tickets-container form .field input:hover {
+    border-color: orange;
+}
+
+.deliver-tickets-container form .field input:focus {
+    border-color: cornflowerblue;
+}
+
+.deliver-tickets-container form button {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.deliver-tickets-container form button:hover {
+    color: white;
+    background: cornflowerblue;
+}
+
+.deliver-tickets-container form button:focus {
+    color: white;
+    background: cornflowerblue;
+}

@@ -1,0 +1,49 @@
+.billboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+}
+
+.billboard h1 {
+    margin: 20px 0;
+    rotate: -15deg;
+    font-family: "Brush Script MT", cursive;
+    font-size: 80px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0 0 5px #005bff, 0 0 10px #005bff, 0 0 10px #005bff, 0 0 20px #005bff;
+}
+
+.billboard-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#billboardDate {
+    width: auto;
+}
+
+.billboard-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.billboard-options label {
+    font-weight: bold;
+    margin: 0;
+}
+
+.billboard-options select {
+    margin: 0 5px;
+}
+
+.billboard-options button {
+    margin: 0 5px;
+}
